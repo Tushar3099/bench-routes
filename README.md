@@ -1,6 +1,7 @@
 # Bench-routes
 
-[![Build Status](https://travis-ci.com/zairza-cetb/bench-routes.svg?branch=master)](https://travis-ci.com/zairza-cetb/bench-routes)
+![Linux build](https://github.com/bench-routes/bench-routes/actions/workflows/build-linux.yml/badge.svg)
+![Mac build](https://github.com/bench-routes/bench-routes/actions/workflows/build-mac.yml/badge.svg)
 [![Go Report Card](https://goreportcard.com/badge/github.com/bench-routes/bench-routes)](https://goreportcard.com/report/github.com/bench-routes/bench-routes)
 [![Gitter](https://img.shields.io/badge/join%20discussions%20on%20gitter-%23benchroutes-green/)](https://gitter.im/bench-routes/community#)
 
@@ -18,15 +19,6 @@ and helps you know about the current state of each route, along with various rel
 3. Reporting in case of any abnormalities.
 
 For installation instructions, please head-over to [INSTALL.md](https://github.com/bench-routes/bench-routes/blob/master/INSTALL.md).
-
-## Making Commits in bench-routes
-
-Bench Routes uses DCO(Developer Certificate Origin) to certify that the contributor wrote the particular code or otherwise have the right to submit the code they are contributing to the project.For complete details on DCO  <a href="https://probot.github.io/apps/dco/" target="_blank">Click Here</a>.
-
-Follow the below `commit` syntax to certify the code and pass the DCO test.
-```
-git commit -s -m <commit-message>
-```
 
 ## Use of MakeFile in bench-routes
 We use `make` for building and executing the program.
@@ -62,13 +54,9 @@ Follow the commands to make the development process easier:
 4. Send the request to url.
 5. This API returns the list of all URLs/Routes that are being monitored for testing using the application.
 
-For more information, regarding usage in different languages. Visit [Bench-Routes](https://documenter.getpostman.com/view/6521254/SzRuWqq9?version=latest).
+For more information, regarding the APIs. Visit [Bench-Routes](https://documenter.getpostman.com/view/6521254/SzRuWqq9?version=latest).
  
-**Bench-routes** has been selected at :-
-1.[Rails Girls Summer of Code ](https://railsgirlssummerofcode.org/)
-2.[GirlScript Summer of Code 2020](https://www.gssoc.tech/)
-
-### 👬  Active maintainers
+### 👬 Active maintainers
 
 - Aquib Baig (aquibbaig97@gmail.com)
 - Muskan Khedia (muskan.khedia2000@gmail.com)
@@ -78,3 +66,7 @@ For more information, regarding usage in different languages. Visit [Bench-Route
 
 - Instant messaging: [bench-routes/community](https://gitter.im/bench-routes/community)
 - Discussions (Recent): https://groups.google.com/forum/#!forum/bench-routes-discussion
+   
+### Supported by
+
+[![JetBrains](https://user-images.githubusercontent.com/36980003/111029750-5b46fc80-8424-11eb-800f-ad7f64844f0d.png)](https://jb.gg/OpenSource)
